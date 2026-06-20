@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EcoTravel" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryVariant">@color/green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/green_light</item>
+        <item name="android:statusBarColor">@color/green_dark</item>
+    </style>
+
+    <!-- Tema para Activity 2 según transporte -->
+    <style name="Theme.EcoTravel.Plane" parent="Theme.EcoTravel">
+        <item name="colorPrimary">@color/color_plane</item>
+        <item name="android:statusBarColor">@color/color_plane</item>
+    </style>
+
+    <style name="Theme.EcoTravel.Car" parent="Theme.EcoTravel">
+        <item name="colorPrimary">@color/color_car</item>
+        <item name="android:statusBarColor">@color/color_car</item>
+    </style>
+
+    <style name="Theme.EcoTravel.Train" parent="Theme.EcoTravel">
+        <item name="colorPrimary">@color/color_train</item>
+        <item name="android:statusBarColor">@color/color_train</item>
+    </style>
+</resources>

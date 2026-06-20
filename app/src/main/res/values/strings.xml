@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">EcoTravel</string>
+
+    <!-- MainActivity -->
+    <string name="add_travel">Agregá un viaje nuevo</string>
+    <string name="hint_destination">Destino</string>
+    <string name="hint_distance">Distancia (km)</string>
+    <string name="label_transport">Medio de transporte</string>
+    <string name="radio_plane">Avión</string>
+    <string name="radio_car">Auto</string>
+    <string name="radio_train">Tren</string>
+    <string name="checkbox_business">Viaje de negocios (+15%)</string>
+    <string name="btn_calculate">Calcular huella</string>
+    <string name="label_total_distance">Distancia total recorrida: %.1f km</string>
+    <string name="label_last_destination">Último destino: %s</string>
+    <string name="error_empty_destination">Ingresá un destino</string>
+    <string name="error_invalid_distance">La distancia debe ser mayor a 0km.</string>
+
+    <!-- ResultActivity -->
+    <string name="label_destination"> Destino: %1$s</string>
+    <string name="label_transport_factor">Transporte: %1$s (x%2$.3f kg/km)</string>
+    <string name="label_co2">Total de emisiones: %1$.2f kg CO₂</string>
+    <string name="label_business">Recargo por viaje de negocios: +15%</string>
+    <string name="btn_save">Guardar en historial</string>
+
+    <!-- HistoryActivity -->
+    <string name="title_history">Historial de rutas</string>
+    <string name="empty_history">Aún no hay viajes registrados</string>
+</resources>

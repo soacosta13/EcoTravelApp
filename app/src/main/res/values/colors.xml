@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--paleta principal -->
+    <color name="green_primary">#2E7D32</color>
+    <color name="green_light">#4CAF50</color>
+    <color name="green_dark">#1B5E20</color>
+    <color name="green_surface">#E8F5E9</color>
+
+    <!--paleta de transportes -->
+    <color name="color_plane">#1565C0</color>
+    <color name="color_car">#6D14B1</color>
+    <color name="color_train">#9C27B0</color>
+
+    <!-- neutral -->
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="error_red">#B00020</color>
+</resources>
